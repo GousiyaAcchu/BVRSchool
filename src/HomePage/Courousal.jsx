@@ -12,7 +12,7 @@ function Courousal() {
     <Carousel activeIndex={index} onSelect={handleSelect} variant="dark" className='carousel'>
       <Carousel.Item className='carouselitem'>
         <img
-          className="d-block w-100"
+          width={1500} height={600}
           src="./images/AB6I1043.jpg"
           alt="First slide"
         />
@@ -23,7 +23,7 @@ function Courousal() {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          width={1500} height={600}
           src="./images/F29A9495.jpg"
           alt="Second slide" />
 
@@ -34,7 +34,7 @@ function Courousal() {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          className="d-block w-100"
+          width={1500} height={600}
           src="./images/AB6I1055.jpg"
           alt="Third slide"
         />

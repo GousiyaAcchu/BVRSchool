@@ -5,20 +5,23 @@
   width: 100%;
   height :30% !important;
 }
+.NavBrand
+{
+  padding-right: 327px;
+}
 .carouselEntry
 {
  max-height: 10%;
 }
-/* .carousel.carousel.slide.carousel-dark {
-  width: 90%;
-  padding-left: 20%;
-} */
-/* .carousel-control-prev {
-  left: 176px;
+
+@media all and (min-width: 992px) {
+	.navbar .dropdown-menu-end{ right:0; left: auto;  }
+	.navbar .nav-item .dropdown-menu{  display:block; opacity: 0; transition:.3s; margin-top:0;  background-color: skyblue;}
+	.navbar .nav-item:hover .nav-link{ background-color:orange }
+	.navbar .dropdown-menu.fade-down{ top:80%; transform: rotateX(-75deg); transform-origin: 0% 0%;}
+	.navbar .dropdown-menu.fade-up{ top:180%; }
+	.navbar .nav-item:hover .dropdown-menu{opacity:1; visibility:visible; top:100%; transform: rotateX(0deg); }
 }
-.carousel-control-next {
-  right: -115px;
-} */
 .body
 {
   align-items:center ;
@@ -44,6 +47,7 @@
 .logo
 {
   width:4%;
+  white-space: 10%;
 }
 .madam
 {
@@ -52,77 +56,11 @@
 .text1{
   font:italic;
 }
-/* .containermadam{
-  background-image: url("./images/F29A9496.JPG");
-  
-   width: 150px;
-   height:150px;
- 
-} */
-.footer{
-	padding: 60px 0;
-    width: 120%;
-    background:grey;
-    color: #fff;
-   
+.carouselitem
+{
+  height: 10%;
 }
-.footer-title{
-	position: relative;
-    color: #fff;
-	font-size: 24px;
-    font-weight: 600;
-    margin-top: 5px;
-    margin-bottom: 20px;
-    border-bottom: 1px solid #4e4e4e;
-}
-.footer-title:after{
-	position: absolute;
-	content: '';
-	left: 0;
-	bottom: 0;
-	width: 30px;
-	height: 4px;
-	background:whitesmoke;
-}
-.footer-links a{
-	padding: 10px 0;
-	border-bottom: 1px solid #404040;
-	color: #fff;
-	display: block;
-	transition: color 0.5s ease-in-out;
-   text-decoration:none;
-}
-.footer-links a:hover{
-	color:whitesmoke;
-}
-.footer-social-links li{
-	display: inline-block;
-}
-.footer-social-links a{
-	width: 40px;
-	height: 40px;
-	font-size: 16px;
-	float: left;
-	margin-right: 10px;
-	padding: 10px;
-	border: 1px solid #404040;
-	border-radius: 50px;
-	text-align: center;
-	color: #fff;
-	line-height: 1;
-	-webkit-transition: background 0.3s ease-in-out;
-	-moz-transition: background 0.3s ease-in-out;
-	transition: background 0.3s ease-in-out;
-  background:#3B008D;
-}
-.footer-social-links a:hover{
-	background:aqua;
-}
-/* g. Footer bottom section */
-.footer-bottom{
-	width: 100%;
-	padding: 25px 0;
-	text-align: center;
-	color: #fff;
-	background: grey;
+.me-auto
+{
+  background-color:azure;
 }
